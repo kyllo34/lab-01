@@ -55,4 +55,31 @@ footer {
     width: 200px;
     height: 600px;
   }
+  main {
+    width: 760px;
+    height: 200px;
+  }
+  article {
+    width: 760px;
+    height: 250px;
+  }
+  article > div {
+    width: 380px;
+    height: 250px;
+  }
+  main > div {
+    width: 380px;
+    height: 200px;
+  }
+  div > div {
+    width: 190px;
+    height: 250px;
+  }
+  footer {
+    width: 760px;
+    height: 150px;
+  }
+  aside, main, main > div, article, article > div, div > div, footer {
+    float: left;
+  }
 }
