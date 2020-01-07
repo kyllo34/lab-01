@@ -1,0 +1,56 @@
+header {
+  background-color: blue;
+}
+aside {
+  background-color: blueviolet;
+}
+main > div:first-child {
+  background-color: brown;
+}
+main > div:last-child {
+  background-color: burlywood;
+}
+article > div:first-child > div:first-child {
+  background-color: cadetblue;
+}
+article > div:first-child > div:last-child {
+  background-color: chartreuse;
+}
+article > div:last-child > div:first-child {
+  background-color: chocolate;
+}
+article > div:last-child > div:last-child {
+  background-color: coral;
+}
+footer {
+  background-color: cornflowerblue;
+}
+@media (min-width: 768px) {
+  header {
+    background-color: cornsilk;
+  } 
+  aside {
+    background-color: crimson;
+  }
+  footer {
+    background-color: darkmagenta;
+  }
+  main > div:first-child {
+    background-color: cyan;
+  }
+  main > div:last-child {
+    background-color: darkblue;
+  }
+  article > div:first-child > div:first-child {
+    background-color: darkcyan;
+  }
+  article > div:first-child > div:last-child {
+    background-color: darkgoldenrod;
+  }
+  article > div:last-child > div:first-child {
+    background-color: darkgray;
+  }
+  article > div:last-child > div:last-child {
+    background-color: darkgreen;
+  }
+}
