@@ -1,18 +1,44 @@
+
 header {
   height: 75px;
   width: 480px;
+  line-height: 75px;
 }
 aside {
   height: 150px;
   width: 480px;
+  line-height: 150px;
 }
 main > div {
   width: 480px;
   height: 125px;
+  line-height: 125px;
 }
 div > div {
   width: 240px;
   height: 250px;
+}
+article {
+  height: 500px;
+  width: 480px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  
+}
+article > div {
+  height: 250px;
+  width: 480px;
+}
+article > div {
+  margin: auto;
+}
+article > div > div {
+  float: left;
+  border: 1px black solid;
+  
+}
+article > div:first-child {
+  border-left: 0px;
 }
 footer {
   width: 480px;

@@ -1,9 +1,11 @@
 
-header, aside, footer, main > div, div > div {
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+header, aside, footer, main > div {
   border: black solid 1px;
-  margin: auto;
+  border-bottom: 0px;
   color: black;
   font-size: 12px;
-  text-align: center;
-  vertical-align: middle;
 }
