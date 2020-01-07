@@ -2,16 +2,36 @@ header {
   height: 75px;
   width: 480px;
   line-height: 75px;
+  background-color: blue;
 }
 aside {
   height: 150px;
   width: 480px;
   line-height: 150px;
+  background-color: blueviolet;
 }
 main > div {
   width: 480px;
   height: 125px;
   line-height: 125px;
+}
+main > div:first-child {
+  background-color: brown;
+}
+main > div:last-child {
+  background-color: burlywood;
+}
+article > div:first-child > div:first-child {
+  background-color: cadetblue;
+}
+article > div:first-child > div:last-child {
+  background-color: chartreuse;
+}
+article > div:last-child > div:first-child {
+  background-color: chocolate;
+}
+article > div:last-child > div:last-child {
+  background-color: coral;
 }
 div > div {
   width: 240px;
@@ -41,6 +61,7 @@ footer {
   width: 480px;
   height: 80px;
   line-height: 80px;
+  background-color: cornflowerblue;
 }
 @media (min-width: 768px) {
   body {
@@ -50,10 +71,12 @@ footer {
   header {
     width: 960px;
     height: 100px;
+    background-color: cornsilk;
   } 
   aside {
     width: 200px;
     height: 600px;
+    background-color: crimson;
   }
   main {
     width: 760px;
@@ -78,8 +101,27 @@ footer {
   footer {
     width: 760px;
     height: 150px;
+    background-color: darkmagenta;
   }
   aside, main, main > div, article, article > div, div > div, footer {
     float: left;
+  }
+  main > div:first-child {
+    background-color: cyan;
+  }
+  main > div:last-child {
+    background-color: darkblue;
+  }
+  article > div:first-child > div:first-child {
+    background-color: darkcyan;
+  }
+  article > div:first-child > div:last-child {
+    background-color: darkgoldenrod;
+  }
+  article > div:last-child > div:first-child {
+    background-color: darkgray;
+  }
+  article > div:last-child > div:last-child {
+    background-color: darkgreen;
   }
 }
