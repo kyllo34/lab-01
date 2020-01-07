@@ -1,0 +1,11 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+header, aside, footer, main > div {
+  border: black solid 1px;
+  border-bottom: 0px;
+  color: black;
+  font-size: 12px;
+}
